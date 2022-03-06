@@ -4,5 +4,10 @@ for (let i = 0; i < document.querySelectorAll(".drum").length; i++ ) {
     
 
 function handleClick() {
-    alert('Click!')
+    console.log(this.innerHTML);
 }
+
+
+
+const audio = new Audio('./sounds/crash.mp3')
+audio.play()
